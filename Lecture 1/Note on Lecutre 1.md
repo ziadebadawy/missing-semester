@@ -11,7 +11,8 @@ We also have other types of interfaces that are more recently developed, such as
 
 All of these interfaces are essentially a way for us, the human, to interact with our machine. However, most of these interfaces are specialized by their manufacturer<sup>(sometimes referred to as the author)</sup> to do what they had in mind when they created the interface. In addition to that, it is quite impossible to make two different interfaces interact without having a custom bridge between them
 
-So, **What if you wanted to go one level down?** Where you can write whatever commands you want and be able to chain them however you want. And that is <u>what the shell is.</u> it is the *Textual* Interface to the computer, it is the predecessor to all of the interfaces and is the core language to interact with the computer. 
+So, **What if you wanted to go one level down?** Where you can write whatever commands you want and be able to chain them however you want. And that is <u>what the shell is.</u> it is the *Textual* Interface to the computer, it is the predecessor to all of the interfaces and is the core language to interact with the computer.
 
+## The Terminal
 
 
