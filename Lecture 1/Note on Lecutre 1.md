@@ -1,4 +1,4 @@
-# Introduction to Shell
+# Introduction to the Shell
 >[!Important]
 The information compiled applies to **POSIX-Compliant shells** (e.g, `Zsh`, `Bash`) on Linux or other UNIX-like systems. Windows PowerShell will not be covered or compiled here. 
 >
@@ -13,6 +13,5 @@ All of these interfaces are essentially a way for us, the human, to interact wit
 
 So, **What if you wanted to go one level down?** Where you can write whatever commands you want and be able to chain them however you want. And that is <u>what the shell is.</u> it is the *Textual* Interface to the computer, it is the predecessor to all of the interfaces and is the core language to interact with the computer.
 
-## The Terminal
-
+The Shell runs in the context of a Terminal, the terminal is the Window/UI surrounding the shell's interior. It is responsible for displaying the text, Accepting keyboard input, managing colors, fonts, scrolling, copy/paste, and tabs.
 
