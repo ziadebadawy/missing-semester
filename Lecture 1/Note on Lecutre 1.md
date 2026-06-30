@@ -18,9 +18,9 @@ The Shell runs in the context of a Terminal, the terminal is the Window/UI surro
 ### Why the Shell?
 The Shell is usually much faster than clicking around, whereas the GUIs tend to be slower the more the complex a task is. Part of that is because The Shell is able to automate. It is essentially a programming language where you can automate commands and *combine* multiple application.
 
-<pre style="background:#1e1e1e; padding:10px; border-radius:6px;">
-<span style="color:#a6e22e;">[jon@xos:~]$</span> Missing Semester
-<span style="color:#888;">bash: Missing: command not found</span>
+```bash
+[jon@xos:~]$ Missing Semester
+bash: Missing: command not found
 
-<span style="color:#a6e22e;">[jon@xos:~]$</span> <span style="color:#fff;">█</span>
-</pre>
+[jon@xos:~]$ █
+```
