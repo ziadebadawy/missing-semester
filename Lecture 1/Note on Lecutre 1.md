@@ -1,10 +1,10 @@
 # Introduction to the Shell
 >[!Important]
-The information compiled applies to **POSIX-Compliant shells** (e.g, `Zsh`, `Bash`) on Linux or other UNIX-like systems. Windows PowerShell will not be covered or compiled here. 
+The information compiled applies to **POSIX-Compliant shells** (e.g `Bash` and by extension `Zsh`) on Linux or other UNIX-like systems. Windows PowerShell will not be covered or compiled here. 
 >
-> *For windows users<sub>(me)</sub>  it is highly recommended to either flash a Linux distribution ISO or install **W**indows **S**ubsystem for **L**inux (WSL) for a "Proper Shell".*
-
-## What is the Shell?
+> *For windows users it is highly recommended to either flash a Linux distribution ISO or install **W**indows **S**ubsystem for **L**inux (WSL) for a "Proper Shell".*
+## 0. Definitions 
+### What is the Shell?
 Computers have a bunch of interfaces you can use to interact with the computer. <u>**G**raphical **U**ser **I**nterfaces</u> (GUIs), where you move your mouse around to interact, are the most common and widely spread example of interfaces. Their popularity stems from ease of use and visual representation.
 
 We also have other types of interfaces that are more recently developed, such as **A**gentic **U**ser **I**nterfaces (AUIs), **V**oice **U**ser **I**nterfaces (VUIs), **A**ugmented/**V**irtual **R**eality **I**nterfaces (AR/VR). 
@@ -15,3 +15,12 @@ So, **What if you wanted to go one level down?** Where you can write whatever co
 
 The Shell runs in the context of a Terminal, the terminal is the Window/UI surrounding the shell's interior. It is responsible for displaying the text, Accepting keyboard input, managing colors, fonts, scrolling, copy/paste, and tabs.
 
+### Why the Shell?
+The Shell is usually much faster than clicking around, whereas the GUIs tend to be slower the more the complex a task is. Part of that is because The Shell is able to automate. It is essentially a programming language where you can automate commands and *combine* multiple application.
+
+<pre style="background:#1e1e1e; padding:10px; border-radius:6px;">
+<span style="color:#a6e22e;">[jon@xos:~]$</span> Missing Semester
+<span style="color:#888;">bash: Missing: command not found</span>
+
+<span style="color:#a6e22e;">[jon@xos:~]$</span> <span style="color:#fff;">█</span>
+</pre>
