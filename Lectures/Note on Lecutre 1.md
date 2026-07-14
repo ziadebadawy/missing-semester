@@ -1,6 +1,6 @@
 # Introduction to the Shell
 >[!Important]
-The information compiled applies to **POSIX-Compliant shells** (e.g `Bash` and by extension `Zsh`) on Linux or other UNIX-like systems. Windows PowerShell will not be covered or compiled here. 
+The information compiled applies to **POSIX-Compliant shells** (e.g `Bash`, by extension `Zsh` and others) on Linux or some other UNIX-like systems. Windows PowerShell will not be covered or compiled here. 
 >
 > *For windows users it is highly recommended to either flash a Linux distribution ISO or install **W**indows **S**ubsystem for **L**inux (WSL) for a "Proper Shell".*
 ## 0. Definitions 
